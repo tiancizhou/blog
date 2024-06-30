@@ -866,8 +866,8 @@ pjax:
    - /no-pjax/
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
-  per_page: true
+ enable: true # 开启音乐播放器
+ per_page: true #每个页面都有Aplayer
 
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
@@ -932,6 +932,8 @@ inject:
    - <link rel="stylesheet" href="/xxx.css">
   bottom:
    - <script src="xxxx"></script>
+   - '<div class="aplayer no-destroy" data-id="29357101"  data-server="netease" data-type="song" data-fixed="true" data-autoplay="true"> </div>'
+
 
 # CDN
 # Don't modify the following settings unless you know how they work

@@ -106,3 +106,7 @@ deploy:
   repo: root@121.41.44.111:/home/git/newblog.git
   #branch: master
   branch: master
+#添加刚刚用npm下载插件的配置在_config文件中 同时实现全局音乐 将asset_inject设置成false
+aplayer:
+  enable: true
+  asset_inject: false
