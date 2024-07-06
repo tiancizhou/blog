@@ -1,8 +1,11 @@
+---
+title: 玩弄CompletableFuture之supplyAsync方法探究（一）
+tag:
+  - CompletableFuture
+category: 
+  - 玩玩源码
+---
 # supplyAsync方法探究（一）
-
-[TOC]
-
-
 
 ## 要点
 
