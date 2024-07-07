@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://bob20020619.github.io
+url: https://tiancizhou.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,10 +102,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  #repo: https://github.com/Bob20020619/Bob20020619.github.io
+  #repo: https://github.com/tiancizhou/tiancizhou.github.io
   repo: root@121.41.44.111:/home/git/newblog.git
-  #branch: master
   branch: master
+  #branch: main
 #添加刚刚用npm下载插件的配置在_config文件中 同时实现全局音乐 将asset_inject设置成false
 aplayer:
   enable: true

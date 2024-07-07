@@ -33,7 +33,7 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
- fab fa-github: https://github.com/Bob20020619 || Github || '#24292e'
+ fab fa-github: https://github.com/tiancizhou || Github || '#24292e'
  fas fa-envelope: mailto:1294811773@qq.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
@@ -231,7 +231,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/Bob20020619
+      link: https://github.com/tiancizhou
   card_announcement:
     enable: true
     content: 这是我的博客
